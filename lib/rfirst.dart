@@ -58,34 +58,7 @@ class _State extends State<WelcomeScreen> {
 
     );
   }
-  /* Widget _buildMyDrawer(context) {
-    return Drawer(
-      child: ListView(
-        children: [
-
-
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pushReplacement(
-                MaterialPageRoute(
-                  builder: (ctx) => const About(),
-                ),
-              );
-            },
-            leading: Icon(
-              Icons.info,
-              size: 30,
-              color:Colors.pinkAccent,
-            ),
-            title: const Text("About Page"),
-          ),
-
-
-        ],
-      ),
-    );
-  }
-*/
+ 
   Widget buildMm(BuildContext context) {
     return Scaffold(
         body: Row(
